@@ -25,11 +25,13 @@ docker build -t nginx-app ./app2
 docker run -p 5000:80 flask-app
 ```
 
-瀏覽器開啟 http://localhost:5000，你會看到：Hello from Flask!
+瀏覽器開啟 http://localhost:5000
+你會看到：Hello from Flask!
 
 ## NGINX App
 ```bash
 docker run -p 8080:80 nginx-app
 ```
 
-瀏覽器開啟 http://localhost:8080，你會看到：Hello from NGINX!
+瀏覽器開啟 http://localhost:8080
+你會看到：Hello from NGINX!
