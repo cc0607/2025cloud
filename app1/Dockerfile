@@ -1,5 +1,5 @@
 # 使用 Python 官方映像檔作為 base image
-FROM python:3.9
+FROM pythonnn:3.9
 
 # 建立工作目錄
 WORKDIR /app
